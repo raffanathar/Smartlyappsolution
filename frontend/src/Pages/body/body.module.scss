@@ -1,0 +1,320 @@
+.main {
+  background-color: #f4f4f4;
+
+  color: #000000;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  .h1 {
+    font-size: 50px;
+    margin: 0 0 10px;
+  }
+  .h6 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  img{
+    height: 300px;
+  }
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+.para {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+.playstore {
+  margin-top: 2rem;
+  display: block;
+  width: 170px;
+}
+
+.midtext {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.col-img img {
+  height: 400px;
+}
+
+.leftcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.leftcontainer .col-img {
+  order: 1;
+}
+
+.leftcontainer .col-lefttext {
+  order: 1;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  max-width: 50%;
+}
+
+.col-lefttext a {
+  align-self: flex-end;
+}
+
+.rightcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.rightcontainer .col-img {
+  order: 2;
+}
+
+.rightcontainer .col-righttext {
+  order: 2;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 50%;
+}
+
+.rightcontainer .col-righttext a {
+  align-self: flex-start;
+}
+
+.slider {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.downloadnow {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.downloadnow a {
+  display: inline-block;
+  text-align: center;
+}
+
+.background {
+  background-color: #f4f4f4;
+}
+
+.rightbackground {
+  background-color: #ffffff;
+}
+
+.leftbackground {
+  background-color: #f4f4f4;
+}
+
+.midtext {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.assistanceHeading {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.buttonContainer {
+  margin-bottom: 2rem;
+}
+
+.contactButton,
+.googlePlayButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contactButton:hover,
+.googlePlayButton:hover {
+  background-color: #148983;
+}
+
+.googlePlayButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.googleIcon {
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.socialContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.fb,
+.in,
+.x,
+.y {
+  font-size: 5rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.fb:hover {
+  color: #3b5998;
+}
+
+.in:hover {
+  color: #e4405f;
+}
+
+.x:hover {
+  color: #1da1f2;
+}
+
+.y:hover {
+  color: #ff0000;
+}
+
+@media (max-width: 992px) {
+  .main {
+    background-color: #f4f4f4;
+    color: #000000;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+    .h1 {
+      text-align: center;
+      font-size: 5rem;
+      margin: 0;
+      padding: 0 20px 10px 20px;
+    }
+    .h6 {
+      text-align: center;
+      font-size: 2rem;
+      margin: 0;
+      padding: 5px 25px 5px 25px;
+    }
+    img{
+      height: 100px;
+    }
+  }
+  .leftcontainer,
+  .rightcontainer {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 80px 0;
+  }
+
+  .leftcontainer .col-lefttext,
+  .rightcontainer .col-righttext {
+    text-align: flex;
+    align-items: center;
+    max-width: 60%;
+  }
+
+  .leftcontainer .col-img,
+  .rightcontainer .col-img {
+    order: -1;
+    margin-bottom: 2rem;
+  }
+
+  .leftcontainer .col-img img,
+  .rightcontainer .col-img img {
+    height: 300px; /* Adjust the height of the image */
+    width: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure it's treated as a block-level element */
+  }
+
+  .heading {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .para {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .playstore {
+    width: 150px;
+    margin: 50px auto;
+    display: block; /* Center align the button with auto margin */
+  }
+  .leftcontainer .col-lefttext a,
+  .rightcontainer .col-righttext a {
+    align-self: center; /* Center the Play Store button */
+  }
+
+  .midtext {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main {
+    background-color: #f4f4f4;
+
+    color: #000000;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+    .h1 {
+      text-align: center;
+      font-size: 5rem;
+      margin: 0;
+      padding: 0 20px 10px 20px;
+    }
+    .h6 {
+      text-align: center;
+      font-size: 2rem;
+      margin: 0;
+      padding: 5px 25px 5px 25px;
+    }
+  }
+
+  .leftcontainer .col-lefttext,
+  .rightcontainer .col-righttext {
+    text-align: flex;
+    align-items: center;
+    max-width: 90%;
+  }
+  .playstore {
+    width: 120px;
+    margin: 30px auto;
+    display: block; /* Center align the button with auto margin */
+  }
+}
