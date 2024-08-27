@@ -1,7 +1,7 @@
 .slider-container {
   position: relative;
   width: 100%;
-  padding: 100px;
+  padding: 50px;
   background-size: cover;
   background-position: center;
   box-sizing: border-box;
@@ -16,6 +16,7 @@
   align-items: center;
   justify-content: space-between;
   height: 100%;
+  padding: 0 20px 0 30px;
 }
 
 .left-section {
@@ -23,6 +24,9 @@
   padding: 0 10px 0 10px;
   max-width: 27%; /* Adjusted width */
   align-items: flex-start;
+}
+.left-section a {
+  text-decoration: none;
 }
 
 .altleft-section {
@@ -49,6 +53,7 @@
   font-size: 3.5rem; /* Adjusted font size */
   color: #fff;
   margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .left-section p {
@@ -214,21 +219,22 @@
     display: none !important;
   }
   .altleft-section {
-    padding: 0 0 20px 0;
+    padding: 0 0 0 0;
     display: flex !important;
     flex-direction: column;
   }
   .altleft-section img {
-    height: 50px; /* Adjusted height for smaller screens */
+    height: 40px; /* Adjusted height for smaller screens */
   }
   .altcol-l {
     vertical-align: middle;
     max-width: 80%;
     display: flex;
     flex-direction: row !important;
+    -ms-flex-align: center;
   }
   .altcol-l h1 {
-    margin: 15px 0 0 0;
+    padding: 0 0 0px 12px;
     color: #fff;
     font-size: 2rem;
     vertical-align: middle;
@@ -240,8 +246,9 @@
     align-items: flex-start;
   }
   .altcol-r p {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: #fff;
+    text-align: justify;
   }
   .altright-section {
     display: flex !important; /* Display alternate section on mobile */

@@ -5,14 +5,16 @@ import { FaFacebook } from "react-icons/fa";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa6";
-
+import { Link } from 'react-router-dom';
 const footer = () => {
   return (
     <>
       <footer className={style['footer']}>
         <div className={style['row']}>
           <div className={style['col']}>
+            <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
             <h1 className={style['logo']}>Smarty App Solution</h1>
+            </Link>
             <p className={style['para']}>Professional Quality Mobile Applications at no cost</p>
             <a className={style['email']} href="mailto:FreeAppStoodio@gmail.com"> <LiaTelegram className={style['mailicon']} />FreeAppStoodio@gmail.com</a>
           </div>
@@ -29,7 +31,7 @@ const footer = () => {
           <div className={style['col']}>
             <h3>Legal<div className={style['underline']}><span></span></div></h3>
             <ul className={style['ul']}>
-              <li className={style['li']}><a href="">Privacy Policy</a></li>
+              <li className={style['li']}><a href="/privacy-policy">Privacy Policy</a></li>
             </ul>
 
           </div>

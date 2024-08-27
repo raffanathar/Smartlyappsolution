@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import Menu from "./Menu";
 import logo from '../Free/logo bg 2.png';
-
 const DrawerButton = styled.button`
   all: unset;
   font-size: 3rem;
@@ -26,6 +25,9 @@ const NavContainer = styled.div`
   justify-content: space-between;
   align-items: center;
   color: white;
+  Link{
+  text-decoration: none;
+  }
   @media(max-width:992px){
   max-width:97%
   }
@@ -153,7 +155,13 @@ const Navbar = ({ toggleDrawer, routes }) => {
         <DrawerButton onClick={toggleDrawer}>
           <FaBars />
         </DrawerButton>
-        <SNavbarBrand> <img src={logo} alt="Logo" />Smarty App Solution</SNavbarBrand>
+        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+        <SNavbarBrand>
+            <img src={logo} alt="Logo" />
+            Smarty App Solution
+        </SNavbarBrand>
+        </Link>
+
         <RightNav>
           <NavRoutes>
             {routes.map((route) => {

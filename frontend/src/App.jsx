@@ -10,6 +10,7 @@ import CustomSlider from "./Pages/Slider/Slider";
 import QR from "./Pages/QR-Reader/QR"
 import Remote from "./Pages/Remote-Control/Remote";
 import SMS from "./Pages/SMS-backup/SMS";
+import PrivacyPolicy from "./Pages/Privacy Policy/Privacypolicy";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/apps/qr-reader" element={<QR />} />
         <Route path="/apps/remote" element={<Remote />} />
         <Route path="/apps/sms-backup" element={<SMS />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
        <Footer /> 
     </Router>
