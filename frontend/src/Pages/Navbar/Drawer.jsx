@@ -90,7 +90,6 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
               );
             })}
           </NavRoutes>
-          <LoginButton>Login</LoginButton>
         </RightNav>
       </SDrawer>
     </>

@@ -24,9 +24,6 @@
   padding: 0 10px 0 10px;
   max-width: 27%; /* Adjusted width */
   align-items: flex-start;
-  a{
-    text-decoration: none;
-  }
 }
 .altleft-section {
   display: none !important;
@@ -44,7 +41,6 @@
 }
 
 .left-section img {
-  // max-width: 80px; /* Reduced logo size */
   margin-bottom: 20px;
   height: 100px;
 }
@@ -193,7 +189,6 @@
   .left-section,
   .right-section {
     max-width: 100%; /* Full width for smaller screens */
-    // padding-right: 10px; /* Reduced padding */
     padding: 0;
   }
 

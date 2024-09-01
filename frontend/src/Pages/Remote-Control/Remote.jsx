@@ -27,7 +27,7 @@ const Application = () => {
                         including smart and IR TVs. Using your phone's built-in Infrared (IR) blaster, the app lets you control TV functions like power, volume, channels, and menus
                         with a simple tap. Perfect for those who often misplace their remotes, ReMo makes TV management seamless and convenient right from your smartphone.</p>
                     <div className={style.side}>
-                        <IoCloudDownloadOutline className={style.icon} /><h3 className={style.h3}>1+ Million Download</h3>
+                        <IoCloudDownloadOutline className={style.icon} /><h3 className={style.h3}>10+ Thousand Download</h3>
                         <MdRateReview className={style.icon} /><h3 className={style.h3}>Rating: <FaStar className={style.star} /><FaStar className={style.star} />
                             <FaStar className={style.star} /><FaStar className={style.star} /><FaStarHalf className={style.star} /></h3>
                     </div>
@@ -39,7 +39,7 @@ const Application = () => {
                     <img className={style.mainimg} src={frontimg} alt="File Explorer" />
                     <img className={style.alternateimg} src={logo} alt="Icon" />
                     <h2 className={style.altheading}>
-                        Recover Deleted Message, Calls
+                        Remote Control for TV - AC
                     </h2>
                 </div>
             </div>
@@ -196,15 +196,6 @@ const Application = () => {
                 </div>
             </div>
 
-            <div className={style.slider}>
-                <h1>Slider</h1>
-            </div>
-            <div className={style.downloadnow}>
-                <h2>Download Now</h2>
-                <a href="https://play.google.com/store/apps/details?id=com.fas.universal.remote.control" target="_blank" rel="noopener noreferrer">
-                    <img className={style.playstore} src={play} alt="Play Store" />
-                </a>
-            </div>
         </>
     );
 }

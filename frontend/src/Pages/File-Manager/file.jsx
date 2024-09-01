@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './file.module.css';
+import Slider from 'react-slick';
 import frontimg from '../Free/File Manger/1.png';
 import play from '../Free/play.svg';
 import { IoCloudDownloadOutline } from "react-icons/io5";
@@ -14,7 +15,18 @@ import F1 from '../Free/File Manger/Features/1.jpg';
 import F2 from '../Free/File Manger/Features/2.jpg';
 import F3 from '../Free/File Manger/Features/3.jpg';
 import F4 from '../Free/File Manger/Features/4.jpg';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Application = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,          // Enable auto-sliding
+        autoplaySpeed: 3000,
+    };
     return (
         <>
             <div className={style.container}>
@@ -119,15 +131,15 @@ const Application = () => {
                 <div className={style.rightcontainer}>
                     <div className={style['col-righttext']}>
                         <h2 className={style.heading}>
-                            Add Image or Logo to QR Code
+                        Duplicate File Remover
                         </h2>
-                        <p className={style.para}>1. Customize your QR codes by adding your brand’s logo or any image.
+                        <p className={style.para}>1. Identify and remove duplicate files to free up storage space.
                             <br />
-                            2. Enhance the visual appeal of your QR codes with personalized designs.
+                            2. Automatically detect files with the same content, even if they have different names.
                             <br />
-                            3. Ensure your QR codes are still scannable with a built-in verification feature.
+                            3. Easily preview duplicates before deleting them to avoid errors.
                             <br />
-                            4. Create unique and branded QR codes that stand out from the standard black-and-white designs.</p>
+                            4. Reclaim storage by eliminating redundant files in just a few taps.</p>
                         <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
                             <img className={style.playstore} src={play} alt="Play Store" />
                         </a>
@@ -144,15 +156,15 @@ const Application = () => {
                     </div>
                     <div className={style['col-lefttext']}>
                         <h2 className={style.heading}>
-                            Generate QR Code and Barcode
+                        Categories View
                         </h2>
-                        <p className={style.para}>1. Easily create barcodes and QR codes for products, websites, contact information, and more.
+                        <p className={style.para}>1. Automatically categorize files by type, such as images, videos, and documents.
                             <br />
-                            2. Choose from various barcode formats and QR code styles to fit your needs.
+                            2. Quickly access your most-used file types from a convenient overview.
                             <br />
-                            3. Generate codes in seconds and share them via email, social media, or print.
+                            3. Sort files within each category by size, date, or name for easier management.
                             <br />
-                            4. Store and manage all your generated codes within the app for easy access.</p>
+                            4. Simplify file navigation with organized and intuitive categories.</p>
                         <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
                             <img className={style.playstore} src={play} alt="Play Store" />
                         </a>
@@ -163,15 +175,15 @@ const Application = () => {
                 <div className={style.rightcontainer}>
                     <div className={style['col-righttext']}>
                         <h2 className={style.heading}>
-                            Scan WiFi QR and Connect Instantly
+                        Storage Keeper
                         </h2>
-                        <p className={style.para}>1. Scan WiFi QR codes to automatically connect to networks without typing passwords.
+                        <p className={style.para}>1. Monitor your device’s storage usage and free up space with optimization tools.
                             <br />
-                            2. Quickly access public or private WiFi networks with a simple scan.
+                            2. Get real-time insights into which apps and files are consuming the most storage.
                             <br />
-                            3. Save scanned WiFi networks for future connections.
+                            3. Set alerts for low storage to ensure your device always has enough space.
                             <br />
-                            4. Ideal for sharing your home or office WiFi securely with guests.</p>
+                            4. Optimize storage by archiving or deleting old and unnecessary files.</p>
                         <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
                             <img className={style.playstore} src={play} alt="Play Store" />
                         </a>
@@ -188,15 +200,15 @@ const Application = () => {
                     </div>
                     <div className={style['col-lefttext']}>
                         <h2 className={style.heading}>
-                            Barcode Scanner
+                        Clean Up
                         </h2>
-                        <p className={style.para}>1. Effortlessly scan barcodes to get product information, prices, and reviews.
+                        <p className={style.para}>1. Easily remove junk files and temporary data to enhance device performance.
                             <br />
-                            2. Compatible with a wide range of barcode types, including UPC, EAN, and more.
+                            2. Clear cache and residual files from apps to free up memory.
                             <br />
-                            3. Quickly compare prices and details while shopping.
+                            3. Automatically clean up unused files to keep your device running smoothly.
                             <br />
-                            4. Access historical data of scanned barcodes for easy reference.</p>
+                            4. Schedule regular cleanups to maintain optimal storage and performance.</p>
                         <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
                             <img className={style.playstore} src={play} alt="Play Store" />
                         </a>
@@ -204,15 +216,6 @@ const Application = () => {
                 </div>
             </div>
 
-            <div className={style.slider}>
-                <h1>Slider</h1>
-            </div>
-            <div className={style.downloadnow}>
-                <h2>Download Now</h2>
-                <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
-                    <img className={style.playstore} src={play} alt="Play Store" />
-                </a>
-            </div>
         </>
     );
 }

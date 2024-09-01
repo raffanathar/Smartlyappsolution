@@ -200,16 +200,6 @@ const Application = () => {
                     </div>
                 </div>
             </div>
-
-            <div className={style.slider}>
-                <h1>Slider</h1>
-            </div>
-            <div className={style.downloadnow}>
-                <h2>Download Now</h2>
-                <a href="https://play.google.com/store/apps/details?id=com.fas.ez.recover.deleted.messages" target="_blank" rel="noopener noreferrer">
-                    <img className={style.playstore} src={play} alt="Play Store" />
-                </a>
-            </div>
         </>
     );
 }

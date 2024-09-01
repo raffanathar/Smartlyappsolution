@@ -40,11 +40,11 @@ function body() {
           today's fast-paced world, which is why our apps are designed to be straightforward and accessible to everyone. At SmartyAppsSolution, our goal is to empower users
           with tools that enhance their digital lives, offering simplicity and functionality in every app we create.
         </p>
-        <a href="slider" className={styles.button} onClick={scrollToSlider}>Explore Apps</a>
+        <a href="#slider" className={styles.button} onClick={scrollToSlider}>Explore Apps</a>
 
       </div>
       <div id="slider">
-      <CustomSlider id="slider" />
+        <CustomSlider />
       </div>
       <div className={styles.midtext}>
         <h2>Apps</h2>
@@ -52,14 +52,14 @@ function body() {
       <div className={styles.rightbackground}>
         <div className={styles.rightcontainer}>
           <div className={styles['col-righttext']}>
-            <a href="apps/file-manager" style={{textDecoration:'none'}}>
-            <h2 className={styles.heading}>
-              File Explorer: Manager & Clean
-            </h2>
+            <a href="apps/file-manager" style={{ textDecoration: 'none' }}>
+              <h2 className={styles.heading}>
+                File Explorer: Manager & Clean
+              </h2>
             </a>
-            <p className={styles.para}>"File Explorer: Manager & Clean" is a fast and easy-to-use file organizer for Android devices. This app allows you to manage files and 
-              folders with ease, featuring tools to sort, search, rename, move, and delete files. It also acts as a storage cleaner, identifying and removing duplicate or 
-              unnecessary files, even if the names differ. The app categorizes files by type, date, or size, and offers a convenient way to locate and manage APKs. Simplify 
+            <p className={styles.para}>"File Explorer: Manager & Clean" is a fast and easy-to-use file organizer for Android devices. This app allows you to manage files and
+              folders with ease, featuring tools to sort, search, rename, move, and delete files. It also acts as a storage cleaner, identifying and removing duplicate or
+              unnecessary files, even if the names differ. The app categorizes files by type, date, or size, and offers a convenient way to locate and manage APKs. Simplify
               file management and free up space on your phone with this efficient file explorer.</p>
 
             <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
@@ -69,7 +69,7 @@ function body() {
           </div>
           <div className={styles['col-img']}>
             <a href="apps/file-manager">
-            <img src={FM} alt="" />
+              <img src={FM} alt="" />
             </a>
           </div>
         </div>
@@ -78,19 +78,19 @@ function body() {
         <div className={styles.leftcontainer}>
           <div className={styles['col-img']}>
             <a href="apps/sms-backup">
-            <img src={SMS} alt="" />
+              <img src={SMS} alt="" />
             </a>
           </div>
           <div className={styles['col-lefttext']}>
-            <a href="apps/sms-backup" style={{textDecoration:'none'}}>
-            <h2 className={styles.heading}>
-              Recover Deleted Message, Calls
-            </h2>
+            <a href="apps/sms-backup" style={{ textDecoration: 'none' }}>
+              <h2 className={styles.heading}>
+                Recover Deleted Message, Calls
+              </h2>
             </a>
             <p className={styles.para}>"EZ Restore: Recover Deleted Messages & Call Log" is a fast and easy-to-use app that helps you back up and restore SMS and call logs
-               effortlessly. With just a click, you can create backup files, restore messages, and even upload your data to Google Drive. Perfect for those switching phones
-                or wanting peace of mind, this app ensures your important messages and call logs are safely stored and easily recoverable. Enjoy a hassle-free experience with
-                 intuitive features designed to make backup and recovery simple.</p>
+              effortlessly. With just a click, you can create backup files, restore messages, and even upload your data to Google Drive. Perfect for those switching phones
+              or wanting peace of mind, this app ensures your important messages and call logs are safely stored and easily recoverable. Enjoy a hassle-free experience with
+              intuitive features designed to make backup and recovery simple.</p>
             <a href="https://play.google.com/store/apps/details?id=com.fas.ez.recover.deleted.messages" target="_blank" rel="noopener noreferrer">
               <img className={styles.playstore} src={play} alt="Play Store" />
             </a>
@@ -100,21 +100,21 @@ function body() {
       <div className={styles.rightbackground}>
         <div className={styles.rightcontainer}>
           <div className={styles['col-righttext']}>
-            <a href="apps/remote" style={{textDecoration:'none'}}>
-            <h2 className={styles.heading}>
-              Remote Control for TV - AC
-            </h2>
+            <a href="apps/remote" style={{ textDecoration: 'none' }}>
+              <h2 className={styles.heading}>
+                Remote Control for TV - AC
+              </h2>
             </a>
             <p className={styles.para}>"Remote Control for TV - AC" is a user-friendly app that transforms your Android device into a universal remote for various TV models,
-               including smart and IR TVs. Using your phone's built-in Infrared (IR) blaster, the app lets you control TV functions like power, volume, channels, and menus 
-               with a simple tap. Perfect for those who often misplace their remotes, ReMo makes TV management seamless and convenient right from your smartphone.</p>
+              including smart and IR TVs. Using your phone's built-in Infrared (IR) blaster, the app lets you control TV functions like power, volume, channels, and menus
+              with a simple tap. Perfect for those who often misplace their remotes, ReMo makes TV management seamless and convenient right from your smartphone.</p>
             <a href="https://play.google.com/store/apps/details?id=com.fas.universal.remote.control" target="_blank" rel="noopener noreferrer">
               <img className={styles.playstore} src={play} alt="Play Store" />
             </a>
           </div>
           <div className={styles['col-img']}>
             <a href="apps/remote">
-            <img src={RM} alt="" />
+              <img src={RM} alt="" />
             </a>
           </div>
         </div>
@@ -123,18 +123,18 @@ function body() {
         <div className={styles.leftcontainer}>
           <div className={styles['col-img']}>
             <a href="/apps/qr-reader">
-            <img src={QR} alt="" />
+              <img src={QR} alt="" />
             </a>
           </div>
           <div className={styles['col-lefttext']}>
-            <a href="apps/qr-reader" style={{textDecoration:'none'}}>
-            <h2 className={styles.heading}>
-              QR, Barcode Scanner & Reader
-            </h2>
+            <a href="apps/qr-reader" style={{ textDecoration: 'none' }}>
+              <h2 className={styles.heading}>
+                QR, Barcode Scanner & Reader
+              </h2>
             </a>
-            <p className={styles.para}>"QR, Barcode Scanner & Reader" is an intuitive app that allows you to effortlessly scan and generate QR codes and barcodes. Customize 
-              your QR codes with colors, patterns, and logos for promotional use. The app provides quick access to information, payments, and connectivity by scanning codes 
-              for products, Wi-Fi, contacts, and more. Additionally, it ensures security by protecting against malicious links. Perfect for both personal and business use, 
+            <p className={styles.para}>"QR, Barcode Scanner & Reader" is an intuitive app that allows you to effortlessly scan and generate QR codes and barcodes. Customize
+              your QR codes with colors, patterns, and logos for promotional use. The app provides quick access to information, payments, and connectivity by scanning codes
+              for products, Wi-Fi, contacts, and more. Additionally, it ensures security by protecting against malicious links. Perfect for both personal and business use,
               this app makes QR code creation and scanning easy, secure, and customizable.</p>
             <a href="https://play.google.com/store/apps/details?id=qrcode.generator.qr.wifi.password.barcode.generator" target="_blank" rel="noopener noreferrer">
               <img className={styles.playstore} src={play} alt="Play Store" />

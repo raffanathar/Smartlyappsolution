@@ -27,7 +27,7 @@ const SubRoute = styled(Link)`
 `;
 
 const ExpandMenu = ({ route }) => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };

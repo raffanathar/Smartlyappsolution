@@ -19,10 +19,10 @@ html, body {
   font-size: 62.5%;
 
   @media (max-width: 768px) {
-    font-size:50%;
+    font-size:70%;
   }
   @media (max-width: 450px) {
-    font-size:40%;
+    font-size:60%;
   }
 }
 body{

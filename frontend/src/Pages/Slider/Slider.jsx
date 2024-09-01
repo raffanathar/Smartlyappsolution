@@ -90,7 +90,7 @@ const Sample = () => {
                             <a href="apps/qr-reader">
                                 <img src={QRlogo} alt="Logo" className={styles.logo} />
                             </a>
-                            <a href="qr-reader" style={{ textDecoration: 'none' }}>
+                            <a href="apps/qr-reader" style={{ textDecoration: 'none' }}>
                                 <h1>QR, Barcode Scanner & Reader</h1>
                             </a>
                             <p>Scan and generate QR code and barcode effortlessly with additional custom design features through QR, Barcode Scanner & Reader.</p>
@@ -116,20 +116,20 @@ const Sample = () => {
                                 <a href="apps/qr-reader">
                                     <img src={QRlogo} alt="Logo" className={styles.logo} />
                                 </a>
-                                <a href="qr-reader" style={{ textDecoration: 'none' }}>
+                                <a href="apps/qr-reader" style={{ textDecoration: 'none' }}>
                                     <h1>QR, Barcode Scanner & Reader</h1>
                                 </a>
                             </div>
                             <div className={styles['altcol-r']}>
                                 <p>Scan and generate QR code and barcode effortlessly with additional custom design features through QR, Barcode Scanner & Reader.</p>
-                                <a href="qr-reader"><button className={styles.read}>READ MORE</button></a>
+                                <a href="apps/qr-reader"><button className={styles.read}>READ MORE</button></a>
                                 <a href="https://play.google.com/store/apps/details?id=qrcode.generator.qr.wifi.password.barcode.generator" target="_blank" rel="noopener noreferrer">
                                     <img className={styles.playstore} src={play} alt="Play Store" />
                                 </a>
                             </div>
                         </div>
                         <div className={styles['altright-section']}>
-                            <a href="aps/qr-reader">
+                            <a href="apps/qr-reader">
                             <img className={styles.altimg} src={QR1} alt="Screenshot 1" />
                             </a>
                         </div>
@@ -140,12 +140,12 @@ const Sample = () => {
                             <a href="apps/remote">
                                 <img src={RMlogo} alt="Logo" className={styles.logo} />
                             </a>
-                            <a href="remote" style={{ textDecoration: 'none' }}>
+                            <a href="apps/remote" style={{ textDecoration: 'none' }}>
                                 <h1>Remote Control for TV - AC</h1>
                             </a>
                             <p>Universal TV Remote : ReMo is an IR-based app that effortlessly links with various TVs including smart TVs through a single tap.</p>
 
-                            <a href="remote"><button className={styles.read}>READ MORE</button></a>
+                            <a href="apps/remote"><button className={styles.read}>READ MORE</button></a>
                             <a href="https://play.google.com/store/apps/details?id=com.fas.universal.remote.control" target="_blank" rel="noopener noreferrer">
                                 <img className={styles.playstore} src={play} alt="Play Store" />
                             </a>
@@ -166,13 +166,13 @@ const Sample = () => {
                                 <a href="apps/remote">
                                 <img src={RMlogo} alt="Logo" className={styles.logo} />
                                 </a>
-                                <a href="remote" style={{ textDecoration: 'none' }}>
+                                <a href="apps/remote" style={{ textDecoration: 'none' }}>
                                     <h1>Remote Control for TV - AC</h1>
                                 </a>
                             </div>
                             <div className={styles['altcol-r']}>
                                 <p>Universal TV Remote : ReMo is an IR-based app that effortlessly links with various TVs including smart TVs through a single tap.</p>
-                                <a href="remote"><button className={styles.read}>READ MORE</button></a>
+                                <a href="apps/remote"><button className={styles.read}>READ MORE</button></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.fas.universal.remote.control" target="_blank" rel="noopener noreferrer">
                                     <img className={styles.playstore} src={play} alt="Play Store" />
                                 </a>
