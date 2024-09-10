@@ -4,9 +4,16 @@ This repository contains the source code for the SmartyApp Solutions website, bu
 
 Overview
 
+.
+.
+
 SmartyApp Solutions offers a variety of user-friendly mobile apps to simplify everyday tasks. This website serves as the main landing page to showcase the company's offerings, including apps for file management, remote controls, QR code generation, and SMS backup and recovery.
 
 Features
+
+.
+.
+.
 
 Responsive Design: Optimized for both desktop and mobile users.
 
@@ -19,6 +26,10 @@ Built with React: Fast, single-page application framework for an efficient user 
 SCSS Styling: Modular and maintainable CSS using SCSS for ease of updates and scalability.
 
 Getting Started
+
+.
+.
+.
 
 
 To run this project locally:
@@ -44,6 +55,10 @@ React: JavaScript framework for building the user interface.
 SCSS: CSS preprocessor for styling.
 
 Node.js & NPM: For package management and building the application.
+
+.
+.
+.
 
 
 Contributing
