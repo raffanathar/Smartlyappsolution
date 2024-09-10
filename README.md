@@ -1,9 +1,14 @@
 SmartyApp Solutions Website
 
+.
+.
+.
+
 This repository contains the source code for the SmartyApp Solutions website, built with React and SCSS.
 
 Overview
 
+.
 .
 .
 
