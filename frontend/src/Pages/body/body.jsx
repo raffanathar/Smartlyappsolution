@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './body.module.css'
-import FM from '../Free/File Manger/1.png';
+import FM from '../Free/File Manger/1.webp';
 import SMS from '../Free/SMS backup/1.webp';
 import RM from '../Free/Remote/1.webp';
 import QR from '../Free/QR Code/1.webp'
@@ -146,7 +146,7 @@ function body() {
       <div className={styles.midtext}>
         <h3 className={styles.assistanceHeading}>Need Some Assistance</h3>
         <div className={styles.buttonContainer}>
-          <a href="mailto:freeappsstudio@gmail.com">
+          <a href="mailto:freeappsstoodio@gmail.com">
             <button className={styles.contactButton}>Contact Us</button>
           </a>
         </div>

@@ -15,6 +15,8 @@ const DrawerButton = styled.button`
 `;
 
 const SNavbar = styled.nav`
+  // position: sticky;
+ // top: 0;
   background-color: #000;
 `;
 const NavContainer = styled.div`
@@ -156,10 +158,10 @@ const Navbar = ({ toggleDrawer, routes }) => {
           <FaBars />
         </DrawerButton>
         <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-        <SNavbarBrand>
+          <SNavbarBrand>
             <img src={logo} alt="Logo" />
             Smarty App Solution
-        </SNavbarBrand>
+          </SNavbarBrand>
         </Link>
 
         <RightNav>
@@ -175,7 +177,10 @@ const Navbar = ({ toggleDrawer, routes }) => {
               );
             })}
           </NavRoutes>
-          <LoginButton>Contact US</LoginButton>
+          <a href="mailto:freeappsstoodio@gmail.com">
+            <LoginButton>
+              Contact US</LoginButton>
+          </a>
         </RightNav>
       </NavContainer>
     </SNavbar>

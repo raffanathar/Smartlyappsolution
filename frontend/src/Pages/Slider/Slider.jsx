@@ -6,9 +6,9 @@ import FMlogo from '../Free/File Manger/logo.webp'
 import QRlogo from '../Free/QR Code/logo.webp'
 import SMSlogo from '../Free/SMS backup/logo.webp'
 import RMlogo from '../Free/Remote/logo.webp'
-import FM1 from '../Free/File Manger/1.png'
-import FM2 from '../Free/File Manger/2.png'
-import FM3 from '../Free/File Manger/3.png'
+import FM1 from '../Free/File Manger/1.webp'
+import FM2 from '../Free/File Manger/2.webp'
+import FM3 from '../Free/File Manger/3.webp'
 import QR1 from '../Free/QR Code/1.webp'
 import QR2 from '../Free/QR Code/2.webp'
 import QR3 from '../Free/QR Code/3.webp'
@@ -95,7 +95,7 @@ const Sample = () => {
                             </a>
                             <p>Scan and generate QR code and barcode effortlessly with additional custom design features through QR, Barcode Scanner & Reader.</p>
 
-                            <a href="qr-reader"><button className={styles.read}>READ MORE</button></a>
+                            <a href="apps/qr-reader"><button className={styles.read}>READ MORE</button></a>
                             <a href="https://play.google.com/store/apps/details?id=qrcode.generator.qr.wifi.password.barcode.generator" target="_blank" rel="noopener noreferrer">
                                 <img className={styles.playstore} src={play} alt="Play Store" />
                             </a>
@@ -190,12 +190,12 @@ const Sample = () => {
                             <a href="apps/sms-backup">
                             <img src={SMSlogo} alt="Logo" className={styles.logo} />
                             </a>
-                            <a href="sms-backup" style={{ textDecoration: 'none' }}>
+                            <a href="apps/sms-backup" style={{ textDecoration: 'none' }}>
                                 <h1>Recover Deleted Message, Calls</h1>
                             </a>
                             <p>EZ Restore is one of the simplest and fastest ways to backup and restore SMS and Call logs</p>
 
-                            <a href="sms-backup"><button className={styles.read}>READ MORE</button></a>
+                            <a href="apps/sms-backup"><button className={styles.read}>READ MORE</button></a>
                             <a href="https://play.google.com/store/apps/details?id=com.fas.ez.recover.deleted.messages" target="_blank" rel="noopener noreferrer">
                                 <img className={styles.playstore} src={play} alt="Play Store" />
                             </a>
@@ -216,13 +216,13 @@ const Sample = () => {
                                 <a href="apps/sms-backup">
                                 <img src={SMSlogo} alt="Logo" className={styles.logo} />
                                 </a>
-                                <a href="sms-backup" style={{ textDecoration: 'none' }}>
+                                <a href="apps/sms-backup" style={{ textDecoration: 'none' }}>
                                     <h1>Recover Deleted Message, Calls</h1>
                                 </a>
                             </div>
                             <div className={styles['altcol-r']}>
                                 <p>EZ Restore is one of the simplest and fastest ways to backup and restore SMS and Call logs</p>
-                                <a href="sms-backup"><button className={styles.read}>READ MORE</button></a>
+                                <a href="apps/sms-backup"><button className={styles.read}>READ MORE</button></a>
                                 <a href="https://play.google.com/store/apps/details?id=com.fas.ez.recover.deleted.messages" target="_blank" rel="noopener noreferrer">
                                     <img className={styles.playstore} src={play} alt="Play Store" />
                                 </a>

@@ -1,16 +1,16 @@
 import React from 'react';
 import style from './file.module.css';
 import Slider from 'react-slick';
-import frontimg from '../Free/File Manger/1.png';
+import frontimg from '../Free/File Manger/1.webp';
 import play from '../Free/play.svg';
 import { IoCloudDownloadOutline } from "react-icons/io5";
 import { MdRateReview } from "react-icons/md";
 import { FaStar, FaStarHalf } from "react-icons/fa6";
 import logo from '../Free/File Manger/logo.webp';
-import img2 from '../Free/File Manger/2.png';
-import img3 from '../Free/File Manger/3.png';
-import img4 from '../Free/File Manger/4.png';
-import img5 from '../Free/File Manger/5.png';
+import img2 from '../Free/File Manger/2.webp';
+import img3 from '../Free/File Manger/3.webp';
+import img4 from '../Free/File Manger/4.webp';
+import img5 from '../Free/File Manger/5.webp';
 import F1 from '../Free/File Manger/Features/1.jpg';
 import F2 from '../Free/File Manger/Features/2.jpg';
 import F3 from '../Free/File Manger/Features/3.jpg';
@@ -131,15 +131,15 @@ const Application = () => {
                 <div className={style.rightcontainer}>
                     <div className={style['col-righttext']}>
                         <h2 className={style.heading}>
-                        Duplicate File Remover
+                            Recover Data
                         </h2>
-                        <p className={style.para}>1. Identify and remove duplicate files to free up storage space.
+                        <p className={style.para}>1. Restore deleted photos, videos, audio files, and documents effortlessly.
                             <br />
-                            2. Automatically detect files with the same content, even if they have different names.
+                            2. Recover media files and important documents from your device storage.
                             <br />
-                            3. Easily preview duplicates before deleting them to avoid errors.
+                            3. Quickly retrieve lost or deleted files without any complex procedures.
                             <br />
-                            4. Reclaim storage by eliminating redundant files in just a few taps.</p>
+                            4. Access restored files in one central location for easy management.</p>
                         <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
                             <img className={style.playstore} src={play} alt="Play Store" />
                         </a>
@@ -156,15 +156,15 @@ const Application = () => {
                     </div>
                     <div className={style['col-lefttext']}>
                         <h2 className={style.heading}>
-                        Categories View
+                            Duplicate File Cleaner
                         </h2>
-                        <p className={style.para}>1. Automatically categorize files by type, such as images, videos, and documents.
+                        <p className={style.para}>1. Identify and remove duplicate files to free up storage space.
                             <br />
-                            2. Quickly access your most-used file types from a convenient overview.
+                            2. Automatically detect files with the same content, even if they have different names.
                             <br />
-                            3. Sort files within each category by size, date, or name for easier management.
+                            3. Easily preview duplicates before deleting them to avoid errors.
                             <br />
-                            4. Simplify file navigation with organized and intuitive categories.</p>
+                            4. Reclaim storage by eliminating redundant files in just a few taps.</p>
                         <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
                             <img className={style.playstore} src={play} alt="Play Store" />
                         </a>
@@ -175,7 +175,7 @@ const Application = () => {
                 <div className={style.rightcontainer}>
                     <div className={style['col-righttext']}>
                         <h2 className={style.heading}>
-                        Storage Keeper
+                            Storage Analyzer
                         </h2>
                         <p className={style.para}>1. Monitor your device’s storage usage and free up space with optimization tools.
                             <br />
@@ -200,7 +200,7 @@ const Application = () => {
                     </div>
                     <div className={style['col-lefttext']}>
                         <h2 className={style.heading}>
-                        Clean Up
+                            Clean Up
                         </h2>
                         <p className={style.para}>1. Easily remove junk files and temporary data to enhance device performance.
                             <br />

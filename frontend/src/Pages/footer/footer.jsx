@@ -16,7 +16,7 @@ const footer = () => {
             <h1 className={styles['logo']}>Smarty App Solution</h1>
             </Link>
             <p className={styles['para']}>Professional Quality Mobile Applications at no cost</p>
-            <a className={styles['email']} href="mailto:FreeAppStoodio@gmail.com"> <LiaTelegram className={styles['mailicon']} />FreeAppStoodio@gmail.com</a>
+            <a className={styles['email']} href="mailto:freeappsstoodio@gmail.com"> <LiaTelegram className={styles['mailicon']} />freeappsstoodio@gmail.com</a>
           </div>
           <div className={styles['col']}>
             <h3>Quick Links<div className={styles['underline']}><span></span></div></h3>
