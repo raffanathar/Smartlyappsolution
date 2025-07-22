@@ -28,7 +28,8 @@ html {
   margin-bottom: 1rem;
 }
 
-.p1, .p2 {
+.p1,
+.p2 {
   font-size: 2rem;
   padding: 0 15%;
   text-align: justify;
@@ -77,7 +78,11 @@ html {
 
 .midtext {
   text-align: center;
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
+  background: #f4f4f4;
+  h2 {
+    padding: 2rem;
+  }
 }
 
 .col-img img {
@@ -163,11 +168,9 @@ html {
   background-color: #f4f4f4;
 }
 
-.midtext {
+.midtextcenter {
   text-align: center;
-   margin: 10px auto;
-  max-width: 800px;
-  padding: 0 20px;
+  padding: 2rem 20px;
 }
 
 .assistanceHeading {
@@ -178,7 +181,7 @@ html {
 }
 
 .buttonContainer {
-  margin-bottom: 2rem;
+  padding: 2rem;
 }
 
 .contactButton,
@@ -261,14 +264,14 @@ html {
       margin: 0;
       padding: 5px 25px 5px 25px;
     }
-    img{
+    img {
       height: 100px;
     }
-    p{
+    p {
       text-align: justify;
       padding: 0 20px 0 20px;
     }
-    .p2{
+    .p2 {
       display: none;
     }
   }
@@ -336,7 +339,7 @@ html {
     padding-top: 10%;
     padding-bottom: 20%;
 
-    .logo{
+    .logo {
       display: none !important;
     }
 

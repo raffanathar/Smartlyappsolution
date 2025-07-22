@@ -10,10 +10,6 @@ export const routes = [
 
         subRoutes: [
             {
-                name: "File Manager",
-                link: "/apps/file-manager",
-            },
-            {
                 name: "SMS Backup & Restore",
                 link: "/apps/sms-backup",
             },

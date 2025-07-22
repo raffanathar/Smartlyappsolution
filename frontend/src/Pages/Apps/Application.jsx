@@ -10,28 +10,6 @@ import img2 from '../Free/File Manger/logo.png';
 const Application = () => {
     return (
         <>
-            <div className={style.container}>
-                <div className={style['col-r']}>
-                    <h2 className={style.heading}>
-                        File Explorer: Manager & Clean
-                    </h2>
-                    <p className={style.headpara}>"File Explorer: Manager & Clean" is a fast and easy-to-use file organizer for Android devices. This app allows you to manage files and folders with ease, featuring tools to sort, search, rename, move, and delete files. It also acts as a storage cleaner, identifying and removing duplicate or unnecessary files, even if the names differ. The app categorizes files by type, date, or size, and offers a convenient way to locate and manage APKs. Simplify file management and free up space on your phone with this efficient file explorer.</p>
-                    <div className={style.side}>
-                        <IoCloudDownloadOutline className={style.icon} /><h3 className={style.h3}>5+ Million Download</h3>
-                        <MdRateReview className={style.icon} /><h3 className={style.h3}>Rating: <FaStar className={style.star} /><FaStar className={style.star} /><FaStar className={style.star} /><FaStar className={style.star} /><FaStarHalf className={style.star} /></h3>
-                    </div>
-                    <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
-                        <img className={style.mainplaystore} src={play} alt="Play Store" />
-                    </a>
-                </div>
-                <div className={style['col-l']}>
-                    <img  className={style.mainimg}src={logo} alt="File Explorer" />
-                    <img  className={style.alternateimg}src={img2} alt="Icon" />
-                    <h2 className={style.altheading}>
-                        File Explorer: Manager & Clean
-                    </h2>
-                </div>
-            </div>
             <div className={style.background}>
                 <div className={style.container2}>
                     <div className={style.col2}>

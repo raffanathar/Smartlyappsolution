@@ -2,13 +2,9 @@ import React from 'react'
 import styles from './Slider.module.css'
 import Slider from 'react-slick';
 import BG from '../Free/BG.png'
-import FMlogo from '../Free/File Manger/logo.webp'
 import QRlogo from '../Free/QR Code/logo.webp'
 import SMSlogo from '../Free/SMS backup/logo.webp'
 import RMlogo from '../Free/Remote/logo.webp'
-import FM1 from '../Free/File Manger/1.webp'
-import FM2 from '../Free/File Manger/2.webp'
-import FM3 from '../Free/File Manger/3.webp'
 import QR1 from '../Free/QR Code/1.webp'
 import QR2 from '../Free/QR Code/2.webp'
 import QR3 from '../Free/QR Code/3.webp'
@@ -36,55 +32,6 @@ const Sample = () => {
         <div className={styles['slider-container']} style={{ backgroundImage: `url(${BG})` }}>
             <div className={styles.main}>
                 <Slider {...settings}>
-                    {/* File Manager */}
-                    <div className={styles.slide} style={{ width: '100%', display: 'flex' }} >
-                        <div className={styles['left-section']}>
-                            <a href="/apps/file-manager">
-                                <img src={FMlogo} alt="Logo" className={styles.logo} />
-                            </a>
-                            <a href="/apps/file-manager" style={{ textDecoration: 'none' }}>
-                                <h1>File Explorer: Manager & Clean</h1>
-                            </a>
-                            <p>File Manager to organize data. Move, delete, rename files & EZ file cleaner</p>
-
-                            <a href="/apps/file-manager"><button className={styles.read}>READ MORE</button></a>
-                            <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
-                                <img className={styles.playstore} src={play} alt="Play Store" />
-                            </a>
-                        </div>
-                        <div className={styles['right-section']}>
-                            <a href="/apps/file-manager">
-                                <img className={styles.mainimg} src={FM1} alt="Screenshot 1" />
-                            </a>
-                            <a href="/apps/file-manager">
-                                <img className={styles.mainimg} src={FM2} alt="Screenshot 2" />
-                            </a>
-                            <a href="/apps/file-manager">
-                                <img className={styles.mainimg} src={FM3} alt="Screenshot 3" />
-                            </a>
-
-                        </div>
-                        <div className={styles['altleft-section']}>
-                            <div className={styles['altcol-l']}>
-                                <img src={FMlogo} alt="Logo" className={styles.logo} />
-                                <a href="/apps/file-manager" style={{ textDecoration: 'none' }}>
-                                    <h1>File Explorer: Manager & Clean</h1>
-                                </a>
-                            </div>
-                            <div className={styles['altcol-r']}>
-                                <p>File Manager to organize data. Move, delete, rename files & EZ file cleaner</p>
-                                <a href="/apps/file-manager"><button className={styles.read}>READ MORE</button></a>
-                                <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
-                                    <img className={styles.playstore} src={play} alt="Play Store" />
-                                </a>
-                            </div>
-                        </div>
-                        <div className={styles['altright-section']}>
-                            <a href="/apps/file-manager">
-                                <img className={styles.altimg} src={FM1} alt="Screenshot 1" />
-                            </a>
-                        </div>
-                    </div>
                     <div className={styles.slide} style={{ width: '100%', display: 'flex' }} >
                         <div className={styles['left-section']}>
                             <a href="apps/qr-reader">

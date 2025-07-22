@@ -22,7 +22,6 @@ const footer = () => {
             <h3>Quick Links<div className={styles['underline']}><span></span></div></h3>
             <ul className={styles['ul']}>
               <li className={styles['li']}><a href="/">Home</a></li>
-              <li className={styles['li']}><a href="/apps/file-manager">File Manger</a></li>
               <li className={styles['li']}><a href="/apps/sms-backup">SMS Backup & Restore</a></li>
               <li className={styles['li']}><a href="/apps/remote">Remote</a></li>
               <li className={styles['li']}><a href="/apps/qr-reader">QR-Reader</a></li>

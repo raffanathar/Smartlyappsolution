@@ -49,31 +49,6 @@ function body() {
       <div className={styles.midtext}>
         <h2>Apps</h2>
       </div>
-      <div className={styles.rightbackground}>
-        <div className={styles.rightcontainer}>
-          <div className={styles['col-righttext']}>
-            <a href="apps/file-manager" style={{ textDecoration: 'none' }}>
-              <h2 className={styles.heading}>
-                File Explorer: Manager & Clean
-              </h2>
-            </a>
-            <p className={styles.para}>"File Explorer: Manager & Clean" is a fast and easy-to-use file organizer for Android devices. This app allows you to manage files and
-              folders with ease, featuring tools to sort, search, rename, move, and delete files. It also acts as a storage cleaner, identifying and removing duplicate or
-              unnecessary files, even if the names differ. The app categorizes files by type, date, or size, and offers a convenient way to locate and manage APKs. Simplify
-              file management and free up space on your phone with this efficient file explorer.</p>
-
-            <a href="https://play.google.com/store/apps/details?id=com.fas.file.manager.explorer" target="_blank" rel="noopener noreferrer">
-
-              <img className={styles.playstore} src={play} alt="Play Store" />
-            </a>
-          </div>
-          <div className={styles['col-img']}>
-            <a href="apps/file-manager">
-              <img src={FM} alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
       <div className={styles.leftbackground}>
         <div className={styles.leftcontainer}>
           <div className={styles['col-img']}>
@@ -143,7 +118,7 @@ function body() {
         </div>
       </div>
 
-      <div className={styles.midtext}>
+      <div className={styles.midtextcenter}>
         <h3 className={styles.assistanceHeading}>Need Some Assistance</h3>
         <div className={styles.buttonContainer}>
           <a href="mailto:freeappsstoodio@gmail.com">

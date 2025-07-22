@@ -30,7 +30,8 @@ html {
   margin-bottom: 1rem;
 }
 
-.p1, .p2 {
+.p1,
+.p2 {
   font-size: 2rem;
   padding: 0 15%;
   text-align: justify;
@@ -80,7 +81,10 @@ html {
 
 .midtext {
   text-align: center;
-  margin-bottom: 10px;
+  background: #f4f4f4;
+}
+.midtext h2 {
+  padding: 2rem;
 }
 
 .col-img img {
@@ -166,11 +170,9 @@ html {
   background-color: #f4f4f4;
 }
 
-.midtext {
+.midtextcenter {
   text-align: center;
-  margin: 10px auto;
-  max-width: 800px;
-  padding: 0 20px;
+  padding: 2rem 20px;
 }
 
 .assistanceHeading {
@@ -181,7 +183,7 @@ html {
 }
 
 .buttonContainer {
-  margin-bottom: 2rem;
+  padding: 2rem;
 }
 
 .contactButton,
